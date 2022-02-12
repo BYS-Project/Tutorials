@@ -11,6 +11,7 @@ Here you can find all the tutorials about
 - Remix
 - Other IDEs f.e. Visual Studio Code
 
+## Other
 ### General knowledge
 ___What is ERC?:___ It stands for "Ethereum Request for Comment", it can compared to a standard.<br>
 ___What is ERC-721:___ It gives the possibility to create digitals tokens that rapresent valuable non-fungible collectibles!<br>
