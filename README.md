@@ -10,7 +10,14 @@ Here you can find all the tutorials about
 ### IDE:
 - Remix
 - Other IDEs f.e. Visual Studio Code
-
+## Testing
+### Code:
+Depends from the environment. Fe in brownie you can build python tests and then perform the following command for texting it.
+```python
+brownie test [--network] [networkName]
+```
+### Nfts:
+You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/)
 ## Other
 ### General knowledge
 ___What is ERC?:___ It stands for "Ethereum Request for Comment", it can compared to a standard.<br>
