@@ -17,7 +17,7 @@ Depends from the environment. Fe in brownie you can build python tests and then 
 brownie test [--network] [networkName]
 ```
 ### Nfts:
-You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/)
+You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/) after the publishment of the Smart Contract
 ## Other
 ### General knowledge
 ___What is ERC?:___ It stands for "Ethereum Request for Comment", it can compared to a standard.<br>
