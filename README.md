@@ -5,7 +5,7 @@ Here you can find all the tutorials about
 ### Requirements
 - Image in .png or .jpeg
 - ⚠️Why to chose one instead of another?
-- JSON data for describing the object [click here to see a json example](www.nukecraft.net)
+- JSON data for describing the object [click here to see a json example](Examples/metadata.json)
 - ⚠️Where should them be uploaded (Normal server? Take a look @ IPFS!) -> We need data uploaded in a always-persistent place like a blockchain!
 ### IDE:
 - Remix
