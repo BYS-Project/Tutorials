@@ -22,6 +22,7 @@ You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/) a
 ### General knowledge
 ___What is ERC?:___ It stands for "Ethereum Request for Comment", it can compared to a standard.<br>
 ___What is ERC-721:___ It gives the possibility to create digitals tokens that rapresent valuable non-fungible collectibles!<br>
+-  Take a look at documentation [here](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721#IERC721-balanceOf-address-) and [here](https://eips.ethereum.org/EIPS/eip-721)
 
 ### Useful resources: 
 [NFT contract example](https://github.com/HashLips/hashlips_nft_contract)
