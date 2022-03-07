@@ -5,7 +5,7 @@ Here you can find all the tutorials about
 ### Requirements
 - Image in .png or .jpeg
 - ⚠️Why to chose one instead of another?
-- JSON data for describing the object [click here to see a json example](Examples/metadata.json)
+- JSON data for describing the object [click here to see the OpenSea documentation](https://docs.opensea.io/docs/metadata-standards)
 - ⚠️Where should them be uploaded (Normal server? Take a look @ IPFS!) -> We need data uploaded in a always-persistent place like a blockchain!
 ### IDE:
 - Remix
@@ -16,6 +16,13 @@ Depends from the environment. Fe in brownie you can build python tests and then 
 ```python
 brownie test [--network] [networkName]
 ```
+You can find some code here:
+- [ERC721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol)
+- [ERC165](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165.sol)
+- [IERC721Metadata](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Metadata.sol)
+- [ERC721URIStorage](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721URIStorage.sol) 
+- [ERC721Enumerable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol)
+- [ERC721Burnable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Burnable.sol)
 ### Nfts:
 You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/) after the publishment of the Smart Contract
 ## Other
