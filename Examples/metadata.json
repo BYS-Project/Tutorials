@@ -1,27 +1,18 @@
 {
-    "dna":"INSERT-HASH-HERE",
-    "name":"Firt NFT",
-    "description":"First NFT's description",
-    "image":"Link to image",
-    "edition":"1",
-    "date":"INSERT-CURRENT-TIMESTAMP",
-    "attributes":[
-        {
-            "trait_type":"background",
-            "value":"tan"
-        },{
-            "trait_type":"body",
-            "value":"basic"
-        },{
-            "trait_type":"eyes",
-            "value":"evil"
-        },{
-            "trait_type":"mouth",
-            "value":"basic"
-        },{
-            "trait_type":"head",
-            "value":"top-hat"
+    "title":"Asset Title",
+    "type":"object",
+    "properties":{
+        "name":{
+            "type":"string",
+            "description":"Identifies the asset"
+        },
+        "description":{
+            "typ":"string",
+            "description":"Describes the asset"
+        },
+        "image":{
+            "type":"string",
+            "description":"Uri pointing to image (mime)"
         }
-    ],
-    "compiler":"HashLips Art Engine"
+    }
 }
