@@ -23,8 +23,13 @@ You can find some code here:
 - [ERC721URIStorage](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721URIStorage.sol) 
 - [ERC721Enumerable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol)
 - [ERC721Burnable](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Burnable.sol)
+
 ### Nfts:
 You can test your NFTS on [The OpenSea Testnets](https://testnets.opensea.io/) after the publishment of the Smart Contract
+
+## IPFS
+asdasd
+
 ## Other
 ### General knowledge
 ___What is ERC?:___ It stands for "Ethereum Request for Comment", it can compared to a standard.<br>
