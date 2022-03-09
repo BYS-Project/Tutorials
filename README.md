@@ -39,5 +39,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
 ### Useful resources: 
 [NFT contract example](https://github.com/HashLips/hashlips_nft_contract)
 
--- Come Abbinare Metadata --
-Perché devo trovare un codice di partenza decente. Altrimenti non va niente!
+### SPDX Licence
+[click here](https://forum.openzeppelin.com/t/solidity-0-6-8-introduces-spdx-license-identifiers/2859) to see how to implement it <br>
+[click here](https://spdx.org/licenses/) to see a list of licences
