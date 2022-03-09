@@ -42,3 +42,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
 ### SPDX Licence
 [click here](https://forum.openzeppelin.com/t/solidity-0-6-8-introduces-spdx-license-identifiers/2859) to see how to implement it <br>
 [click here](https://spdx.org/licenses/) to see a list of licences
+
+ ### Measure units
+ [click here](https://www.investopedia.com/terms/w/wei.asp#:~:text=Wei%20is%20the%20smallest%20denomination,one%20quintillionth%20of%20an%20ether) to learn about WEI - GWEI - ETHER...
