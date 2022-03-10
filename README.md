@@ -45,3 +45,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
 
  ### Unit of measurement
  [click here](https://www.investopedia.com/terms/w/wei.asp#:~:text=Wei%20is%20the%20smallest%20denomination,one%20quintillionth%20of%20an%20ether) to learn about WEI - GWEI - ETHER...
+ 
+ ### What is a "pure" function?
+ [click here](https://www.educative.io/edpresso/what-are-pure-functions-in-solidity)
