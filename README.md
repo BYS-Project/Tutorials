@@ -47,4 +47,5 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
  [click here](https://www.investopedia.com/terms/w/wei.asp#:~:text=Wei%20is%20the%20smallest%20denomination,one%20quintillionth%20of%20an%20ether) to learn about WEI - GWEI - ETHER...
  
  ### What is a "pure" function?
- [click here](https://www.educative.io/edpresso/what-are-pure-functions-in-solidity)
+ [click here](https://www.educative.io/edpresso/what-are-pure-functions-in-solidity) to take a look at "what is a pure function?".<br>
+ "In Solidity, a function that doesn’t read or modify the variables of the state is called a pure function. It can only use local variables that are declared in the function and the arguments that are passed to the function to compute or return a value."
