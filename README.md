@@ -49,3 +49,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
  ### What is a "pure" function?
  [click here](https://www.educative.io/edpresso/what-are-pure-functions-in-solidity) to take a look at "what is a pure function?".<br>
  "In Solidity, a function that doesn’t read or modify the variables of the state is called a pure function. It can only use local variables that are declared in the function and the arguments that are passed to the function to compute or return a value."
+ 
+ ### Solidity Data Types
+ [click here](https://docs.soliditylang.org/en/v0.8.10/types.html) to take a look at the argument
