@@ -52,3 +52,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
  
  ### Solidity Data Types
  [click here](https://docs.soliditylang.org/en/v0.8.10/types.html) to take a look at the argument
+ 
+ ### Notes:
+uint256 (uint) is more efficient than uint8 and lower-bit numbers!
