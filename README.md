@@ -57,5 +57,9 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
  ### Solidity Data Types
  [click here](https://docs.soliditylang.org/en/v0.8.10/types.html) to take a look at the argument
  
+ ### Solidity Exceptions
+ #### "Stack limit reached 1024 (1023)"
+ Generally means that there is a loop in your code [click here](https://ethereum.stackexchange.com/questions/124664/stack-limit-reached-1024-1023-error/124780#124780)
+ 
  ### Notes:
 uint256 (uint) is more efficient than uint8 and lower-bit numbers!
