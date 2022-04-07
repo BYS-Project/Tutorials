@@ -1,6 +1,8 @@
 # Tutorials
 Here you can find all the tutorials about
 - NFTs
+- Solidity
+- Pytest
 ## NFTs
 ### Requirements
 - Image in .png or .jpeg
