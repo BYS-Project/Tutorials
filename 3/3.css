@@ -1,0 +1,48 @@
+html{
+    min-width: 450px;
+    min-height: 450px;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5vw;
+    grid-row-gap: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inputElement{
+    text-align: center;
+    border: min(0.2vh, 10px) solid green;
+    height: 5vh;
+    grid-column: 1 / 3 span;
+}
+button{
+    height: 5vh;
+    border: min(0.2vh, 10px) solid green;
+}
+#inputButton{
+    grid-column: 1;
+    color: white;
+    background-color: green;
+}
+#saveTabButton{
+    grid-column: 2;
+    color: white;
+    background-color: green;
+}
+#deleteAllButton{
+    grid-column: 3;
+    color: green;
+    background-color: white;
+}
+ul{
+    grid-column: 1 / 3 span;
+    margin-top: 1vh;
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 0.2vh;
+}
+li a{
+    color: green;
+}

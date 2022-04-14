@@ -1,5 +1,6 @@
 # Tutorials
 Here you can find all the tutorials about
+<<<<<<< HEAD
 - NFTs
 - Solidity
 - Pytest
@@ -65,3 +66,6 @@ ___What is ERC-721:___ It gives the possibility to create digitals tokens that r
  
  ### Notes:
 uint256 (uint) is more efficient than uint8 and lower-bit numbers!
+=======
+- JavaScript
+>>>>>>> e334de09e304015fc77c706b1d7d3c6150326f47
