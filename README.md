@@ -5,7 +5,7 @@
 Increment and save (***non persistent***) objects in a page <br>
 - Elements of the DOM
 ### Second Tutorial [here](./2/) 2️⃣
-BlackJack game. (***very basilar***) <br>
+BlackJack game. (***very basic***) <br>
 - Array usage for saving withdrawed cards
 - Introduction to OOP with JavaScript
 - Math.random
