@@ -1,0 +1,97 @@
+<!--
+    Personal Thought:
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- How to import JQuery through Google CDN. An althernative would have been downloading the library from the official site ("https://jquery.com/") -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1 id="firstTitle">First Title</h1>
+        <p id="firstParagraph" class="exampleClass">This is the first paragraph of the page</p>
+
+        <h1 id="secondTitle">Second Title</h1>
+        <p id="secondParagraph">This is the second paragraph of the page</p>
+
+        <h1 id="thirdTitle">Third Title</h1>
+        <p id="thirdParagraph">This is the third paragraph of the page</p>
+
+        <button>Click me!</button>
+
+        <input type="text"> 
+
+        <!-- Now, we have to load the JQuery code after the document is loaded from the browser! -->
+        <script>
+            $(document).ready(function () {
+                // Here we can write our JQuery code
+
+                // SELECTORS Syntax
+                $('p').hide()                   // Hide the element(s) when the page loads
+                $('p:first').hide()             // Taking the first child of the object
+                $('#firstParagraph').hide()     // Taking a single element
+                $('.exampleClass').hide()       // Taking a class
+                $('[href]').hide()              // Taking everything with an "href" attribute - We can insert a non-HTML attribute too
+
+                // EVENTS
+                $('button').click(function (){
+                    // When we click on every 'button' element this fragment of the code is called
+                    alert("Hello There!")
+                })
+                $('#secondParagraph').hover(function (){
+                    // When the mouse entered the paragraph
+                    alert("Welcome in the second paragraph!")
+                }, function(){
+                    // When the mouse left the paragraph
+                    alert("Adios!")
+                })
+                $('input').focus(function() {
+                    $(this).css('background-color', 'red')
+                })
+                // Another way of event handling
+                $('input').on({
+                    hover: function(){
+                        // Hover-eneter function here
+                    }, function(){
+                        // Hover-left function here
+                    },
+                    focus: function(){
+                        // Focus function here
+
+                        // Basic TRANSITIONS
+                        $(this).fadeIn()            // -> Shows the input with an effect
+                        $(this).fadeOut()           // -> Hides the input with an effect
+                        $(this).fadeToggle()        // -> Instead of fadeIn() and fadeOut() use this
+
+                        $(this).slideDown()         // -> Shows the input with an effect
+                        $(this).slideUp()           // -> Hides the input with an effect
+                        $(this).slideToggle()       // -> Similar to fadeToggle()
+                    }
+                })
+
+                // CALLBACKS
+                // What is a callback? It is a function executed when an operation is completed
+                $('p').hide('slow'), function (){
+                    alert('This is a callback. This code fragment is executed when the "hide" process is finished.')
+                }
+                alert('This instruction is executed before the end of the "hide" process of p')
+
+                // CHAINING
+                $('button').click(function (){
+                    $('p').slideUp(200).slideDown(100)
+                })
+
+                // DOM
+                $('button').click(function (){
+                    alert('text() of the first paragraph: ', $('#firstParagraph').text())   // It prints out the text content (human readable) of the element
+                    alert('html() of the first paragraph: ', $('#firstParagraph').html())   // It prints out the html content of the element
+                })
+                $('input').click(function (){
+                    alert('text() of the first paragraph: ', $('#firstParagraph').val())    // It works with input forms
+                })
+            })
+        </script>
+    </body>
+</html>
