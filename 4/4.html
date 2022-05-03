@@ -1,0 +1,36 @@
+<!--
+    Fetching data from a server:
+    AJAX is very important! It allows to show data in real time without the need of reloading a web page
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX</title>
+    </head>
+    <body>
+        <script>
+            // "Old" method
+            let xml
+            const url = './url.json'                // Url of the content to update
+            const request = new XMLHttpRequest()    // Creates a request object
+            request.open('GET', url)                // Request the content to the specified url with the provided request type (POST/GET)
+            request.responseType = 'json'           // Explicit the response type
+            // Check the request state
+            request.onload(function () {
+                xml = request.response
+                console.log("XML: ", xml)
+            })
+            // Send the request
+            request.send()
+
+            // "New method"
+            fetch(url)                              // Fetch the URL provided before
+            .then(response => response.json())      // After fetching, it takes the response from it
+            .then(json => {                         // It parses the response as a json
+                fetchClass = json
+                console.log("Fetch: ", fetchClass)
+            })
+        </script>
+    </body>
+</html>

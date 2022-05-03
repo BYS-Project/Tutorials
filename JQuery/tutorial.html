@@ -1,6 +1,6 @@
 <!--
-    Personal Thought:
-
+    Premise:
+    the use of jQuery has a descendent trend, but it is still used in the vast majority of the projects/websites
 -->
 
 <!DOCTYPE html>
@@ -22,6 +22,12 @@
         <button>Click me!</button>
 
         <input type="text"> 
+
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
 
         <!-- Now, we have to load the JQuery code after the document is loaded from the browser! -->
         <script>
@@ -86,10 +92,64 @@
                 // DOM
                 $('button').click(function (){
                     alert('text() of the first paragraph: ', $('#firstParagraph').text())   // It prints out the text content (human readable) of the element
+                    $('#firstParagraph').text('Ayo, new text in here!')
                     alert('html() of the first paragraph: ', $('#firstParagraph').html())   // It prints out the html content of the element
+                    $('#firstParagraph').html('<b>Changing <i> html </i></b>')
                 })
                 $('input').click(function (){
-                    alert('text() of the first paragraph: ', $('#firstParagraph').val())    // It works with input forms
+                    alert('val() of an input: ', $('#firstParagraph').val())    // It works with input forms
+                    $('#firstParagraph').val('New Input')
+                    alert('attr(attributeName) of the first paragraph: ', $('#firstParagraph').attr('data-customAttribute'))    // It works with input forms
+                })
+                // element.append() -> insert text at the end of the element, element.prepend()  -> insert text at the beginning of the element, element.after()  -> insert text at the end of the father's element, element.before() -> insert text at the beginning of the father's element     
+                $('ul').empty()     // Deletes all <li> elements
+                $('ul').remove()    // Removes all the element
+
+                // CSS
+                $('p').addClass('className')        // Adds a class to the element
+                $('p').removeClass('className')     // Removes a class to the element
+                $('p').toggleClass('className')     // ""
+
+                $('p').css('propertyName', 'value', 'propertyName2', 'value2')
+
+                // TRAVERSING: Move through the DOM
+                $('ul').parent()                    // Gets the first parent of the 'ul' element
+                $('ul').parents()                   // Gets all the parents of the 'ul' element
+                $('ul').parentsUntil('body')        // Gets all the parents of the 'ul' element until it reachs the 'body' element (excluded)
+
+                $('ul').children()                  // Gets the first children of the 'ul' element
+
+                $('ul').find('li')                  // Gets all the 'li' elements where 'ul' is the ancestor
+
+                $('ul').siblings()                  // Gets all the siblings of 'ul'
+
+                $('ul').next()                      // Gets the next sibling of 'ul'
+                $('ul').nextAll()                   // Gets all the siblings after 'ul'
+                $('ul').nextUntil('p')              // ""
+
+                $('ul').prev()                      // The opposite of next
+
+                // AJAX
+                $('p').load('hello.txt')            // Loads the content of 'hello.txt' in every 'p' element
+                // Read "test.json" file, once it is done, with a callback function and log it
+                $.getJSON('test.json', function(data){
+                    console.log(data)
+                })
+                // We can perform get or post requests with
+                $.get()
+                $.post()
+                // Another method is - Reccomended
+                $.ajax({
+                    url : "page.php",                           // Where to make the request
+                    dataType : "json",                          // Response data type
+                    type : "post",                              // GET/POST
+                    data : $(this).serialize,                   // Data to send to the page, for instance, a form
+                    success: function(response){                // On success
+                        console.log("Everything is fine!")
+                    },
+                    error: function(jqXHR, textStatus, error){  // On failure
+                        console.log("error!", textStatus, error)
+                    }
                 })
             })
         </script>
