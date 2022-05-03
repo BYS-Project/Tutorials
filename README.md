@@ -20,5 +20,5 @@ Chrome Extension that saves a given link or the one of the page the user is look
 Why AJAX?<br>
 AJAX is a very powerful "tool" that allows you to update html in real-time through JavaScript. <br>
 Applications like brokers, instagram and every app that needs to update a site (or a part of it) without refreshing the page, they use AJAX calls
-## JQUERY [here](./JQuery/)
+## JQUERY [here](./JQuery/) ⚙️
 JQuery is a light-weight JS library that allows the programmers to write code in a more time-efficient way
