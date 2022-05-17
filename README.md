@@ -1,4 +1,5 @@
 # Tutorials
+<<<<<<< HEAD
 ## JavaScript
 ### First Tutorial [here](./1/) 1️⃣
 #### Functionalities:
@@ -16,3 +17,9 @@ Chrome Extension that saves a given link or the one of the page the user is look
 - localStorage methods and utilities
 - Template Strings
 - Chrome APIs (tabs)
+=======
+## Solidity
+Click [here](https://github.com/BYS-Project/Tutorials/tree/Solidity) to see all the Solidity Tutorials
+## JavaScript
+Click [here](https://github.com/BYS-Project/Tutorials/tree/JavaScript) to take a look at the JavaScript Tutorials
+>>>>>>> 80c29e383a77f8db421114ae428467dc80ee5ad5
