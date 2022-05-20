@@ -11,3 +11,5 @@ We're going to include multile FacebookPost(s) into App.js. Every post has 3 pro
 - description: Description of the post
 ### Styling
 A little bit of style is applied in [App.css](./src/style/App.css) and [FacebookPost.css](./src/style/FacebookPost.css)
+### Output
+![Output Image](./git_images/tutorial_2_output.png "Output").
