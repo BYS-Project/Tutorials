@@ -10,4 +10,4 @@ We're going to include multile FacebookPost(s) into App.js. Every post has 3 pro
 - imgLink: Link to the image displayed with the post
 - description: Description of the post
 ### Styling
-A little bit of style is applied in [App.css](./src/style/App.css) and [FacebookPost.css](/src/style/FacebookPost.css)
+A little bit of style is applied in [App.css](./src/style/App.css) and [FacebookPost.css](./src/style/FacebookPost.css)
