@@ -1,0 +1,13 @@
+.home h1{
+    color: blue;
+    text-align: center;
+}
+.home h2{
+    text-align: center;
+}
+.posts{
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,22 @@
+.post{
+    margin: 5vh 5vw 5vh 5vw;
+    border-top: 0.5vh solid black;
+    border-bottom: 0.5vh solid black;
+    display: grid;
+
+}
+.post img{
+    border: 0.2vh solid black;
+    margin: auto;
+    max-height: 20vh;
+}
+.description {
+    text-align: center;
+}
+.post button{
+    min-height: 30px;
+    height: 5vh;
+}
+.likeNumber{
+    text-align: center;
+}
