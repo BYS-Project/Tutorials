@@ -6,14 +6,15 @@ https://reactjs.org/
 2) Check if the installation was completed successfully: node -v | In case of errors try to reboot your computer
 3) Downlaod of Visual Studio Code: https://code.visualstudio.com/download
 4) Open a terminal in VS Code and create a new project (The name MUST NOT contain capital letters, be react nor react-dom nor react-scripts) and type:
-    - npm install react | (install additional packages if required)
-    - npx create-react-app <projectName>
+    - ```npm install react``` | (install additional packages if required)
+    - ```npx create-react-app <projectName>```
 5) As written in the terminal, type:
-    - cd <projectName>
-    - npm start | shows your project in a webpage (alternative to XAMPP (https://www.apachefriends.org/it/index.html))
-6) Now we will be editing App.js
+    - ```cd <projectName>```
+    - ```npm start``` | shows your project in a webpage (alternative to XAMPP (https://www.apachefriends.org/it/index.html))
+6) Now we will be editing App.js 
+<br><br>
+Note: ```code .``` opens a new VS window into the current directory.
 ## What Is a component?
-
 ## Links
 - First Lession [click here](./tutorial_1)
 - Second Lession [click here](./tutorial_2)
