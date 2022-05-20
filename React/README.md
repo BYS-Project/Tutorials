@@ -15,10 +15,10 @@ https://reactjs.org/
 ## What Is a component?
 
 ## Links
-- First Lession (click here)[https://github.com/BYS-Project/Tutorials/blob/JavaScript/React/tutorial_1/public/src/components/App.js] -> intro, React, ReactDOM, html folder
-- Second Lession ()[] -> components & props
-- Third Lession ()[] -> state and lifecycle
-- Forth Lession ()[] -> Second (posts) + Third (states), Iteration
+- First Lession [click here](./tutorial_1) -> intro, React, ReactDOM, html folder
+- Second Lession [click here](./tutorial_2) -> components & props
+- Third Lession [click here](./tutorial_3) -> state and lifecycle
+- Forth Lession [click here](./tutorial_4) -> Second (posts) + Third (states), Iteration
 ## Sources:
 - https://reactjs.org/docs/getting-started.html - ReactJS official website                    - (English)
 - https://www.youtube.com/watch?v=TXDAGKojStA&list=PL1hmRmW_B-wJYfu_Yrc8ETXqF1w9Qd3nm         - (Italian)   From lession 1 to 4
