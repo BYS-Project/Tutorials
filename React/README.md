@@ -15,7 +15,7 @@ https://reactjs.org/
 ## What Is a component?
 
 ## Links
-- First Lession ()[] -> intro, React, ReactDOM, html folder
+- First Lession (click here)[https://github.com/BYS-Project/Tutorials/blob/JavaScript/React/tutorial_1/public/src/components/App.js] -> intro, React, ReactDOM, html folder
 - Second Lession ()[] -> components & props
 - Third Lession ()[] -> state and lifecycle
 - Forth Lession ()[] -> Second (posts) + Third (states), Iteration
