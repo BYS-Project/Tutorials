@@ -19,7 +19,7 @@ Note: ```code .``` opens a new VS window into the current directory.
 - First Lession [click here](./tutorial_1)
 - Second Lession [click here](./tutorial_2)
 - Third Lession [click here](./tutorial_3)
-- Forth Lession [click here](./tutorial_4) -> Second (posts) + Third (states), Iteration
+- Forth Lession [click here](./tutorial_4)
 ## Sources:
 - https://reactjs.org/docs/getting-started.html - ReactJS official website                    - (English)
 - https://www.youtube.com/watch?v=TXDAGKojStA&list=PL1hmRmW_B-wJYfu_Yrc8ETXqF1w9Qd3nm         - (Italian)   From lession 1 to 4
