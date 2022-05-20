@@ -6,7 +6,7 @@
 - [4](./4) <br>
 Those tutorials teachs the basics of JavaScript
 ## ES6
-[ES6](./ES6+) <br>
+- [ES6](./ES6+) <br>
 Contains the most common sintax introduced by ES6/ES7/ES8
 ## JQuery
 - [JQuery](./JQuery) <br>
